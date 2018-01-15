@@ -1,7 +1,5 @@
 # OWASP ZAP 2.7.0 Mini Workshop
 
-**This is still WIP. I should be done with the final version by 17 Jan 2018**
-
 ## Instructions
 
 #### Requirements
