@@ -1,6 +1,6 @@
 # The Running OWASP 2.7.0 Automation and Scripting Workshop
 
-##Objective
+## Objective
 I was really impressed by [Kelsey Hightower's](https://twitter.com/kelseyhightower)	"Learn Kubernetes the Hard Way". I really wanted to come up with something as simple and effective as that for one of my favorite DAST tools, [OWASP ZAP](https://github.com/zaproxy/zaproxy). Instead of making presentations that tend to be theoretical, rather boring and difficult to version manage and control, I decided to go the IPython Notebook route, where this could be an interactive experience and a running tutorial of sorts. 
 
 This will be debuted as a 2 hour workshop at the proposed [OWASP Bay Area Meetup on the 24th of Jan 2018](https://www.meetup.com/Bay-Area-OWASP/)
@@ -14,7 +14,7 @@ Please feel free to reach out for comments/requests on:
 - [we45 LinkedIn](https://www.linkedin.com/company/1155059/)
 - [Website](https://www.we45.com)
 
-##Thanks
+## Thanks
 - I would like to thank the OWASP ZAP Development team led by [Simon Benetts](https://twitter.com/psiinon) for their great work with ZAP. It's probably the most powerful security tool for the Continuous Delivery Pipeline
 - I would like to thank my own team at we45 for their work in integrating scanners and DevSecOps pipelines for our clients. 
 
