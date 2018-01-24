@@ -36,3 +36,8 @@ Please feel free to reach out for comments/requests on:
 * Open the `ZAP 2.7.0 Mini Workshop.ipynb`, by clicking on it.
 * Install `Docker` if not already installed on your laptop. Pull image with this command: `docker pull abhaybhargav/vul_flask`
 * Run the Docker container with the command: `docker run -p 5050:5050 abhaybhargav/vul_flask`, you can add the `-d` optionally to run it as a detached process
+
+#### Update - 24 Jan 2018
+* Added Automation for ZAP with Stored ZAP Sessions. 
+* This can be accessed in the `ZAP Sessions` notebook
+* Open the `ZAP Sessions.ipynb`, by clicking on it.
