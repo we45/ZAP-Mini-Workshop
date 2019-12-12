@@ -1,4 +1,4 @@
-# The Running OWASP 2.7.0 Automation and Scripting Workshop
+# The Running OWASP 2.8.0 Automation and Scripting Workshop
 
 ## Objective
 I was really impressed by [Kelsey Hightower's](https://twitter.com/kelseyhightower)	"Learn Kubernetes the Hard Way". I really wanted to come up with something as simple and effective as that for one of my favorite DAST tools, [OWASP ZAP](https://github.com/zaproxy/zaproxy). Instead of making presentations that tend to be theoretical, rather boring and difficult to version manage and control, I decided to go the IPython Notebook route, where this could be an interactive experience and a running tutorial of sorts. 
@@ -21,8 +21,8 @@ Please feel free to reach out for comments/requests on:
 ## Instructions
 
 #### Requirements
-* Download ZAP 2.7.0 from [here](https://github.com/zaproxy/zaproxy/wiki/Downloads)
-* Python 3 (I am using Python 3.6.1)
+* Download ZAP 2.8.0 from [here](https://github.com/zaproxy/zaproxy/wiki/Downloads)
+* Python 3.6.1
 * Docker
 
 #### Install Instructions
@@ -41,3 +41,8 @@ Please feel free to reach out for comments/requests on:
 * Added Automation for ZAP with Stored ZAP Sessions. 
 * This can be accessed in the `ZAP Sessions` notebook
 * Open the `ZAP Sessions.ipynb`, by clicking on it.
+
+#### Update - December 12 2019
+* Upgraded to OWASP ZAP v 2.8.0
+* Tested Compatibility with Python 3
+* Added `nbstripout` library for Output reduction
