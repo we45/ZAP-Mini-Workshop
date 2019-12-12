@@ -3,9 +3,7 @@
 ## Objective
 I was really impressed by [Kelsey Hightower's](https://twitter.com/kelseyhightower)	"Learn Kubernetes the Hard Way". I really wanted to come up with something as simple and effective as that for one of my favorite DAST tools, [OWASP ZAP](https://github.com/zaproxy/zaproxy). Instead of making presentations that tend to be theoretical, rather boring and difficult to version manage and control, I decided to go the IPython Notebook route, where this could be an interactive experience and a running tutorial of sorts. 
 
-This will be debuted as a 2 hour workshop at the proposed [OWASP Bay Area Meetup on the 24th of Jan 2018](https://www.meetup.com/Bay-Area-OWASP/)
-
-The idea is to have a running interactive, totally hands-on, no-Death-by-Powerpoint :) training on OWASP ZAP Automation and Scripting. So, watch this space for updates :)
+The idea is to have a running interactive, totally hands-on, no-Death-by-Powerpoint :) training on OWASP ZAP Automation and Scripting.
 
 Please feel free to reach out for comments/requests on: 
 
@@ -32,8 +30,8 @@ Please feel free to reach out for comments/requests on:
 	* `virtualenv zap`
 	* `source zap/bin/activate`
 * Install requirements: `pip install -r requirements.txt` or `pip3 install -r requirements.txt` depending on how you are managing Python versions on your machine
-* Start the IPython Notebook with `ipython notebook`. This should start the notebook and your default browser should automatically redirect you to the iPython Notebook
-* Open the `ZAP 2.7.0 Mini Workshop.ipynb`, by clicking on it.
+* Start the IPython Notebook with `jupyter notebook`. This should start the notebook and your default browser should automatically redirect you to the iPython Notebook
+* Open the `OWASP ZAP API Mini Workshop.ipynb`, by clicking on it.
 * Install `Docker` if not already installed on your laptop. Pull image with this command: `docker pull abhaybhargav/vul_flask`
 * Run the Docker container with the command: `docker run -p 5050:5050 abhaybhargav/vul_flask`, you can add the `-d` optionally to run it as a detached process
 
